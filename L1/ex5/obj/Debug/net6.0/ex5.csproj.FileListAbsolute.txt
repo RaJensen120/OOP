@@ -1,0 +1,15 @@
+/Users/Andrzej/Documents/OOP/L1/ex5/obj/Debug/net6.0/ex5.csproj.AssemblyReference.cache
+/Users/Andrzej/Documents/OOP/L1/ex5/obj/Debug/net6.0/ex5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Andrzej/Documents/OOP/L1/ex5/obj/Debug/net6.0/ex5.AssemblyInfoInputs.cache
+/Users/Andrzej/Documents/OOP/L1/ex5/obj/Debug/net6.0/ex5.AssemblyInfo.cs
+/Users/Andrzej/Documents/OOP/L1/ex5/obj/Debug/net6.0/ex5.csproj.CoreCompileInputs.cache
+/Users/Andrzej/Documents/OOP/L1/ex5/bin/Debug/net6.0/ex5
+/Users/Andrzej/Documents/OOP/L1/ex5/bin/Debug/net6.0/ex5.deps.json
+/Users/Andrzej/Documents/OOP/L1/ex5/bin/Debug/net6.0/ex5.runtimeconfig.json
+/Users/Andrzej/Documents/OOP/L1/ex5/bin/Debug/net6.0/ex5.dll
+/Users/Andrzej/Documents/OOP/L1/ex5/bin/Debug/net6.0/ex5.pdb
+/Users/Andrzej/Documents/OOP/L1/ex5/obj/Debug/net6.0/ex5.dll
+/Users/Andrzej/Documents/OOP/L1/ex5/obj/Debug/net6.0/refint/ex5.dll
+/Users/Andrzej/Documents/OOP/L1/ex5/obj/Debug/net6.0/ex5.pdb
+/Users/Andrzej/Documents/OOP/L1/ex5/obj/Debug/net6.0/ex5.genruntimeconfig.cache
+/Users/Andrzej/Documents/OOP/L1/ex5/obj/Debug/net6.0/ref/ex5.dll
