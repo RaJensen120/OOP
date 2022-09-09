@@ -1,0 +1,15 @@
+/Users/Andrzej/Documents/OOP/L1/ex2/bin/Debug/net6.0/ex2
+/Users/Andrzej/Documents/OOP/L1/ex2/bin/Debug/net6.0/ex2.deps.json
+/Users/Andrzej/Documents/OOP/L1/ex2/bin/Debug/net6.0/ex2.runtimeconfig.json
+/Users/Andrzej/Documents/OOP/L1/ex2/bin/Debug/net6.0/ex2.dll
+/Users/Andrzej/Documents/OOP/L1/ex2/bin/Debug/net6.0/ex2.pdb
+/Users/Andrzej/Documents/OOP/L1/ex2/obj/Debug/net6.0/ex2.csproj.AssemblyReference.cache
+/Users/Andrzej/Documents/OOP/L1/ex2/obj/Debug/net6.0/ex2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Andrzej/Documents/OOP/L1/ex2/obj/Debug/net6.0/ex2.AssemblyInfoInputs.cache
+/Users/Andrzej/Documents/OOP/L1/ex2/obj/Debug/net6.0/ex2.AssemblyInfo.cs
+/Users/Andrzej/Documents/OOP/L1/ex2/obj/Debug/net6.0/ex2.csproj.CoreCompileInputs.cache
+/Users/Andrzej/Documents/OOP/L1/ex2/obj/Debug/net6.0/ex2.dll
+/Users/Andrzej/Documents/OOP/L1/ex2/obj/Debug/net6.0/refint/ex2.dll
+/Users/Andrzej/Documents/OOP/L1/ex2/obj/Debug/net6.0/ex2.pdb
+/Users/Andrzej/Documents/OOP/L1/ex2/obj/Debug/net6.0/ex2.genruntimeconfig.cache
+/Users/Andrzej/Documents/OOP/L1/ex2/obj/Debug/net6.0/ref/ex2.dll
