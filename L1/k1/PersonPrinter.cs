@@ -1,18 +1,19 @@
-﻿namespace k1;
-
-public class PersonPrinter
+﻿namespace k1
 {
-    public void PrintPerson(Person p)
+    public class PersonPrinter
     {
-        Console.WriteLine($"{p.FirstName} {p.LastName}, {p.Age}");
-    }
+        public void PrintPerson(Person p)
+        {
+            Console.WriteLine($"{p.FirstName} {p.LastName}, {p.Age}");
+        }
 
-    public void PrintFamilyTree(Person p)
-    {
-        PrintPerson(p);
-        if (p.Dad != null)
-            PrintFamilyTree(p.Dad);
-        if (p.Mom != null)
-            PrintFamilyTree(p.Mom);
+        public void PrintFamilyTree(Person p)
+        {
+            PrintPerson(p);
+            if (p.Dad != null)
+                PrintFamilyTree(p.Dad);
+            if (p.Mom != null)
+                PrintFamilyTree(p.Mom);
+        }
     }
 }

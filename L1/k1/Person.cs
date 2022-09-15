@@ -1,58 +1,60 @@
-﻿namespace k1;
-
-public class Person
+﻿namespace k1
 {
-    static int IdCounter = 0;
-    int ID = ++IdCounter;
-    public Person(string firstName, string lastName, int age, Person dad, Person mom)
+    public class Person
     {
-        FirstName = firstName;
-        LastName = lastName;
-        Age = age;
-        Dad = dad;
-        Mom = mom;
-    }
+        static int IdCounter = 0;
+        int ID = ++IdCounter;
 
-    public Person Dad { get; set; }
-    public Person Mom { get; set; }
-
-
-    private string _FirstName;
-
-    public string FirstName
-    {
-        get { return _FirstName; }
-        set
+        public Person(string firstName, string lastName, int age, Person dad, Person mom)
         {
-            if (string.IsNullOrEmpty(value))
-                throw new Exception($"{nameof(FirstName)} cannot be empty or null");
-            _FirstName = value;
+            FirstName = firstName;
+            LastName = lastName;
+            Age = age;
+            Dad = dad;
+            Mom = mom;
         }
-    }
+        
+        public Person Dad { get; set; }
+        public Person Mom { get; set; }
 
-    private string _LastName;
 
-    public string LastName
-    {
-        get { return _LastName; }
-        set
+        private string _FirstName;
+
+        public string FirstName
         {
-            if (string.IsNullOrEmpty(value))
-                throw new Exception($"{nameof(LastName)} cannot be empty or null");
-            _LastName = value;
+            get { return _FirstName; }
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                    throw new Exception($"{nameof(FirstName)} cannot be empty or null");
+                _FirstName = value;
+            }
         }
-    }
 
-    private int _Age;
+        private string _LastName;
 
-    public int Age
-    {
-        get { return _Age; }
-        set
+        public string LastName
         {
-            if (value < 0)
-                throw new ArgumentOutOfRangeException("Age must be over 0");
-            _Age = value;
+            get { return _LastName; }
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                    throw new Exception($"{nameof(LastName)} cannot be empty or null");
+                _LastName = value;
+            }
+        }
+
+        private int _age; // these lines control 'Age' so that it cannot be set to a value lower than 0
+
+        public int Age
+        {
+            get { return _age; }
+            set
+            {
+                if (value < 0)
+                    throw new ArgumentOutOfRangeException("Age must be over 0");
+                _age = value;
+            }
         }
     }
 }
