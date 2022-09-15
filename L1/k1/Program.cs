@@ -1,6 +1,81 @@
-﻿static void Main()
+﻿using System;
+using k1;
+
+//Person p = new Person("Fornavn", "Larsen", 25, null, null);
+PersonPrinter printer = new PersonPrinter();
+
+Person p = new Person(
+    "Fornavn",
+    "Larsen",
+    25,
+    new Person(
+        "Far",
+        "Larsen",
+        55,
+        new Person(
+            "Farfar",
+            "Larsen",
+            88,
+            null,
+            null
+        ),
+        new Person(
+            "Farmor",
+            "Larsen",
+            83,
+            null,
+            null)),
+    new Person(
+        "Mor",
+        "Larsen",
+        54,
+        null,
+        null));
+
+Console.WriteLine("Selected person:");
+
+printer.PrintPerson(p);
+Console.WriteLine("Their family tree:");
+printer.PrintFamilyTree(p);
+
+static void Main()
 {
-    Person p = new Person()
+    Person p = new Person("Fornavn", "Larsen", 25, null, null);
+    PersonPrinter printer = new PersonPrinter();
+    printer.PrintPerson(p);
+    printer.PrintFamilyTree(p);
+    /*
+    Person p = new Person(
+        "Fornavn", 
+        "Larsen",
+        25,
+        new Person(
+            "Far",
+            "Larsen,"
+            55,
+            new Person(
+                "Farfar",
+                "Larsen",
+                88,
+                null,
+                null
+                ),
+            new Person(
+                "Farmor",
+                "Larsen",
+                83,
+                null,
+                null)),
+        new Person(
+            "Mor",
+            "Larsen",
+            54,
+            null,
+            null));
+            */
+
+
+    /*Person p = new Person()
     {
         FirstName = "Fornavn",
         LastName = "Larsen",
@@ -31,65 +106,5 @@
             // ...
         }
     };
-}
-
-class Person
-{
-    public Person Dad { get; set; }
-    public Person Mom { get; set; }
-    private string _FirstName;
-
-    public string FirstName
-    {
-        get { return _FirstName; }
-        set
-        {
-            if (string.IsNullOrEmpty(value))
-                throw new Exception($"{nameof(FirstName)} cannot be empty or null");
-            _FirstName = value;
-        }
-    }
-
-    private string _LastName;
-
-    public string LastName
-    {
-        get { return _LastName; }
-        set
-        {
-            if (string.IsNullOrEmpty(value))
-                throw new Exception($"{nameof(LastName)} cannot be empty or null");
-            _LastName = value;
-        }
-    }
-
-    private int _Age;
-
-    public int Age
-    {
-        get { return _Age; }
-        set
-        {
-            if (value < 0)
-                throw new ArgumentOutOfRangeException("Age must be over 0");
-            _Age = value;
-        }
-    }
-}
-
-class PersonPrinter
-{
-    public void PrintPerson(Person p)
-    {
-        Console.WriteLine($"{p.FirstName} {p.LastName}, {p.Age}");
-    }
-
-    public void PrintFamilyTree(Person p)
-    {
-        PrintPerson(p);
-        if (p.Dad != null)
-            PrintFamilyTree(p.Dad);
-        if (p.Mom != null)
-            PrintFamilyTree(p.Mom);
-    }
+    */
 }

@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-int size = 5;
+Console.WriteLine("Input size of pyramid: ");
+int size = Int32.Parse(Console.ReadLine());
+//int size = 5;
 
 for (int i = 1; i < size + 1; i++)
 {
