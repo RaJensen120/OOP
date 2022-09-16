@@ -1,0 +1,15 @@
+/Users/Andrzej/Documents/OOP/L2/kg2/bin/Debug/net6.0/kg2
+/Users/Andrzej/Documents/OOP/L2/kg2/bin/Debug/net6.0/kg2.deps.json
+/Users/Andrzej/Documents/OOP/L2/kg2/bin/Debug/net6.0/kg2.runtimeconfig.json
+/Users/Andrzej/Documents/OOP/L2/kg2/bin/Debug/net6.0/kg2.dll
+/Users/Andrzej/Documents/OOP/L2/kg2/bin/Debug/net6.0/kg2.pdb
+/Users/Andrzej/Documents/OOP/L2/kg2/obj/Debug/net6.0/kg2.csproj.AssemblyReference.cache
+/Users/Andrzej/Documents/OOP/L2/kg2/obj/Debug/net6.0/kg2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Andrzej/Documents/OOP/L2/kg2/obj/Debug/net6.0/kg2.AssemblyInfoInputs.cache
+/Users/Andrzej/Documents/OOP/L2/kg2/obj/Debug/net6.0/kg2.AssemblyInfo.cs
+/Users/Andrzej/Documents/OOP/L2/kg2/obj/Debug/net6.0/kg2.csproj.CoreCompileInputs.cache
+/Users/Andrzej/Documents/OOP/L2/kg2/obj/Debug/net6.0/kg2.dll
+/Users/Andrzej/Documents/OOP/L2/kg2/obj/Debug/net6.0/refint/kg2.dll
+/Users/Andrzej/Documents/OOP/L2/kg2/obj/Debug/net6.0/kg2.pdb
+/Users/Andrzej/Documents/OOP/L2/kg2/obj/Debug/net6.0/kg2.genruntimeconfig.cache
+/Users/Andrzej/Documents/OOP/L2/kg2/obj/Debug/net6.0/ref/kg2.dll

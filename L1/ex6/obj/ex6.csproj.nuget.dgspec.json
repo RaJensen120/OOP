@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrzej\\Documents\\OOP\\L1\\ex6\\ex6.csproj": {}
+    "/Users/Andrzej/Documents/OOP/L1/ex6/ex6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrzej\\Documents\\OOP\\L1\\ex6\\ex6.csproj": {
+    "/Users/Andrzej/Documents/OOP/L1/ex6/ex6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrzej\\Documents\\OOP\\L1\\ex6\\ex6.csproj",
+        "projectUniqueName": "/Users/Andrzej/Documents/OOP/L1/ex6/ex6.csproj",
         "projectName": "ex6",
-        "projectPath": "C:\\Users\\Andrzej\\Documents\\OOP\\L1\\ex6\\ex6.csproj",
-        "packagesPath": "C:\\Users\\Andrzej\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrzej\\Documents\\OOP\\L1\\ex6\\obj\\",
+        "projectPath": "/Users/Andrzej/Documents/OOP/L1/ex6/ex6.csproj",
+        "packagesPath": "/Users/Andrzej/.nuget/packages/",
+        "outputPath": "/Users/Andrzej/Documents/OOP/L1/ex6/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Andrzej\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/Andrzej/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -43,7 +43,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -52,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }
