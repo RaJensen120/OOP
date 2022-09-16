@@ -8,7 +8,8 @@ namespace kg2
         {
             Employee e = new Employee("John", "NotManager", 1000);
             Manager m = new Manager("Tom", "Manager", 2000, 500);
-            Console.WriteLine(m.Bonus);
+            Console.WriteLine(e.calculateYearlySalary());
+            ;
         }
     }
 }

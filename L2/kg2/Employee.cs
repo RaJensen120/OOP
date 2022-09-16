@@ -14,9 +14,9 @@ namespace kg2
 
         public int Salary { get; }
         
-        public void calculateYearlySalary(int Salary)
+        public int calculateYearlySalary()
         {
-            
+            return Salary * 12;
         }
     }
 }
