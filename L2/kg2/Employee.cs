@@ -1,8 +1,9 @@
 namespace kg2
 {
-    class Employee
+    class Employee : Person
     {
-        public Employee(string name, string job, int salary, int seniority)
+        public Employee(string name, int age, string job, int salary, int seniority)
+            :base(name, age)
         {
             Name = name;
             Job = job;
