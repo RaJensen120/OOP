@@ -1,0 +1,15 @@
+/Users/Andrzej/Documents/OOP/L3/carSort/bin/Debug/net6.0/carSort
+/Users/Andrzej/Documents/OOP/L3/carSort/bin/Debug/net6.0/carSort.deps.json
+/Users/Andrzej/Documents/OOP/L3/carSort/bin/Debug/net6.0/carSort.runtimeconfig.json
+/Users/Andrzej/Documents/OOP/L3/carSort/bin/Debug/net6.0/carSort.dll
+/Users/Andrzej/Documents/OOP/L3/carSort/bin/Debug/net6.0/carSort.pdb
+/Users/Andrzej/Documents/OOP/L3/carSort/obj/Debug/net6.0/carSort.csproj.AssemblyReference.cache
+/Users/Andrzej/Documents/OOP/L3/carSort/obj/Debug/net6.0/carSort.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Andrzej/Documents/OOP/L3/carSort/obj/Debug/net6.0/carSort.AssemblyInfoInputs.cache
+/Users/Andrzej/Documents/OOP/L3/carSort/obj/Debug/net6.0/carSort.AssemblyInfo.cs
+/Users/Andrzej/Documents/OOP/L3/carSort/obj/Debug/net6.0/carSort.csproj.CoreCompileInputs.cache
+/Users/Andrzej/Documents/OOP/L3/carSort/obj/Debug/net6.0/carSort.dll
+/Users/Andrzej/Documents/OOP/L3/carSort/obj/Debug/net6.0/refint/carSort.dll
+/Users/Andrzej/Documents/OOP/L3/carSort/obj/Debug/net6.0/carSort.pdb
+/Users/Andrzej/Documents/OOP/L3/carSort/obj/Debug/net6.0/carSort.genruntimeconfig.cache
+/Users/Andrzej/Documents/OOP/L3/carSort/obj/Debug/net6.0/ref/carSort.dll
