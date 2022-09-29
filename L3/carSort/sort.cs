@@ -1,13 +1,16 @@
 using System;
 
-namespace carSort{
+namespace carSort
+{
 
-    class Car : IComparable<Car>{
-        public string Make{get; private set;}
-        public string Model{get; private set;}
-        public decimal Price{get; private set;}
+    class Car : IComparable<Car>
+    {
+        public string Make { get; private set; }
+        public string Model { get; private set; }
+        public decimal Price { get; private set; }
 
-        public Car(string make, string model, decimal price){
+        public Car(string make, string model, decimal price)
+        {
             Make = make;
             Model = model;
             Price = price;
@@ -21,17 +24,21 @@ namespace carSort{
             return Price.CompareTo(other.Price);
         }
     }
-      
-    class CarComparer: IComparer<Car>{
-        
-        public int Compare(Car? x, Car? y){
+
+    class CarComparer : IComparer<Car>
+    {
+
+        public int Compare(Car? x, Car? y)
+        {
 
             int makeOrder = x.Make.CompareTo(y.Make);
-            if (makeOrder != 0) {
+            if (makeOrder != 0)
+            {
                 return makeOrder;
-            } 
+            }
             int modelOrder = x.Model.CompareTo(y.Model);
-            if (modelOrder != 0) {
+            if (modelOrder != 0)
+            {
                 return modelOrder;
             }
             return x.Price.CompareTo(y.Price);
@@ -39,23 +46,29 @@ namespace carSort{
 
     }
 
-    class MakeComparer: IComparer<Car>{
-        
-        public int Compare(Car? x, Car? y){
+    class MakeComparer : IComparer<Car>
+    {
 
-        return x.Make.CompareTo(y.Make);
+        public int Compare(Car? x, Car? y)
+        {
+
+            return x.Make.CompareTo(y.Make);
 
         }
     }
 
-    class ModelComparer : IComparer<Car>{
-        public int Compare(Car? x, Car? y){
+    class ModelComparer : IComparer<Car>
+    {
+        public int Compare(Car? x, Car? y)
+        {
             return x.Model.CompareTo(y.Model);
         }
     }
 
-    class PriceComparer : IComparer<Car>{
-        public int Compare(Car? x, Car? y){
+    class PriceComparer : IComparer<Car>
+    {
+        public int Compare(Car? x, Car? y)
+        {
             return x.Price.CompareTo(y.Price);
         }
     }
