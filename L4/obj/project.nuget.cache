@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/yTzg1zmeiBT6VLJwBjx8VImIGsP8fBzKnPV0rbBB6+eTp27O24WwaChlt64BvUw4lr1de8nXW1EApyF0uLSwA==",
+  "success": true,
+  "projectFilePath": "/Users/Andrzej/Documents/OOP/L4/L4.csproj",
+  "expectedPackageFiles": [
+    "/Users/Andrzej/.nuget/packages/system.servicemodel.syndication/7.0.0-rc.1.22426.10/system.servicemodel.syndication.7.0.0-rc.1.22426.10.nupkg.sha512"
+  ],
+  "logs": []
+}

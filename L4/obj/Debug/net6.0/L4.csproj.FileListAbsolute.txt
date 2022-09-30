@@ -1,0 +1,17 @@
+/Users/Andrzej/Documents/OOP/L4/obj/Debug/net6.0/L4.csproj.AssemblyReference.cache
+/Users/Andrzej/Documents/OOP/L4/obj/Debug/net6.0/L4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Andrzej/Documents/OOP/L4/obj/Debug/net6.0/L4.AssemblyInfoInputs.cache
+/Users/Andrzej/Documents/OOP/L4/obj/Debug/net6.0/L4.AssemblyInfo.cs
+/Users/Andrzej/Documents/OOP/L4/obj/Debug/net6.0/L4.csproj.CoreCompileInputs.cache
+/Users/Andrzej/Documents/OOP/L4/bin/Debug/net6.0/L4
+/Users/Andrzej/Documents/OOP/L4/bin/Debug/net6.0/L4.deps.json
+/Users/Andrzej/Documents/OOP/L4/bin/Debug/net6.0/L4.runtimeconfig.json
+/Users/Andrzej/Documents/OOP/L4/bin/Debug/net6.0/L4.dll
+/Users/Andrzej/Documents/OOP/L4/bin/Debug/net6.0/L4.pdb
+/Users/Andrzej/Documents/OOP/L4/bin/Debug/net6.0/System.ServiceModel.Syndication.dll
+/Users/Andrzej/Documents/OOP/L4/obj/Debug/net6.0/L4.csproj.CopyComplete
+/Users/Andrzej/Documents/OOP/L4/obj/Debug/net6.0/L4.dll
+/Users/Andrzej/Documents/OOP/L4/obj/Debug/net6.0/refint/L4.dll
+/Users/Andrzej/Documents/OOP/L4/obj/Debug/net6.0/L4.pdb
+/Users/Andrzej/Documents/OOP/L4/obj/Debug/net6.0/L4.genruntimeconfig.cache
+/Users/Andrzej/Documents/OOP/L4/obj/Debug/net6.0/ref/L4.dll
