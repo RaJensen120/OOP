@@ -22,7 +22,7 @@ namespace L4
 
             menu.Add(
                 new MenuItem(
-                    "Et lidt læ ngere menupunkt ",
+                    "Et lidt længere menupunkt ",
                     "Indhold af punkt 3... det er indtil videre også bare tekst"));
             
             menu.Start();
