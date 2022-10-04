@@ -24,80 +24,17 @@ namespace L4
                 new MenuItem(
                     "Et lidt længere menupunkt ",
                     "Indhold af punkt 3... det er indtil videre også bare tekst"));
+
+            Menu UnderMenu = new Menu("Undermenu");
+            UnderMenu.Add(
+                new MenuItem("titel1", "content1"));
+            
+            UnderMenu.Add(
+                new MenuItem("titel2", "content2"));
+            
+            menu.Add(UnderMenu);
             
             menu.Start();
-
-            /*
-            int optionsCount = 5;
-
-            int selected = 0;
-
-            bool done = false;
-
-            while (!done)
-            {
-                for (int i = 0; i < optionsCount; i++)
-                {
-                    if (selected == i)
-                    {
-                        Console.ForegroundColor = ConsoleColor.Cyan;
-                        Console.Write("> ");
-                    }
-                    else
-                    {
-                        Console.Write("  ");
-                    }
-
-                    Console.WriteLine(i);
-
-                    Console.ResetColor();
-                }
-
-                switch (Console.ReadKey(true).Key)
-                {
-                    case ConsoleKey.UpArrow:
-                        selected = Math.Max(0, selected - 1);
-                        break;
-                    case ConsoleKey.DownArrow:
-                        selected = Math.Min(optionsCount - 1, selected + 1);
-                        break;
-                    case ConsoleKey.Enter:
-                        done = true;
-                        break;
-                }
-
-                if (!done)
-                    Console.CursorTop = Console.CursorTop - optionsCount;
-            }
-
-            Console.WriteLine($"Selected {selected}.");
-        }
-        */
-
-
-
-
-
-
-
-
-
-
-
-            /*
-            static void Main(string[] args)
-            {
-                string url = "http://www.dr.dk/nyheder/service/feeds/allenyheder";
-                XmlReader reader = XmlReader.Create(url);
-                SyndicationFeed feed = SyndicationFeed.Load(reader);
-                reader.Close();
-                foreach (SyndicationItem item in feed.Items)
-                {
-                    Console.WriteLine(item.Title.Text);
-                    //Console.WriteLine(item.Summary.Text);
-                }
-            }
-        }*/
         }
     }
 }
