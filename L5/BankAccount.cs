@@ -2,21 +2,23 @@ using L5;
 
 namespace L5
 {
-    public class BankAccount : Program
+    public class BankAccount
     {
-        public BankAccount(int balance)
+        public BankAccount(string name ,int balance)
         {
+            Name = name;
             Balance = balance;
         }
         
+        public string Name { get; set; }
         public int Balance { get; set; }
 
         public void Start()
         {
+            Console.WriteLine("Welcome back, " + Name +".");
             bool done = false;
             while (!done)
             {
-
                 Console.WriteLine("Press 'd' to deposit, Press 'w' to withdraw, Press 'b' to check balance and Press 'e' to exit");
                 
                 switch (Console.ReadKey(true).Key)
@@ -32,8 +34,6 @@ namespace L5
                         {
                             Console.WriteLine(e.Message);
                         }
-                        
-                        
                         break;
                     
                     case ConsoleKey.W:
@@ -51,11 +51,10 @@ namespace L5
                         {
                             Console.WriteLine(e.Message);
                         }
-                        
                         break;
                     
                     case ConsoleKey.B:
-                        Console.WriteLine("Your current balance is: " + Balance);
+                        Console.WriteLine("Your current balance is: " + Balance +"$");
                         break;
                     
                     case ConsoleKey.E:
@@ -63,10 +62,8 @@ namespace L5
                         break;
                 }
             }
-            
         }
-
-
+        
         public void Deposit(int depositAmount)
         {
             if (depositAmount < 0)

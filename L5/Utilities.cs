@@ -1,6 +1,6 @@
 namespace L5
 {
-    public class Utilities
+    public class Utilities // this class contains methods that should not belong to any 'real' class
     {
         public static int ReadInteger() // This method takes input from console and makes sure its an int
         {

@@ -6,11 +6,8 @@ namespace L5
     {
         static void Main(string[] args)
         {
-
-            BankAccount Jens = new BankAccount(2000);
-            Jens.Start();
-            
-            
+            BankAccount bankAccount1 = new BankAccount("Jens",2000); 
+            bankAccount1.Start();
         }
     }
 }

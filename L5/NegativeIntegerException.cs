@@ -4,7 +4,6 @@ public class NegativeIntegerException : Exception
 {
     public NegativeIntegerException() : this("Enter a non negative value.")
     {
-
     }
 
     public NegativeIntegerException(string message)
