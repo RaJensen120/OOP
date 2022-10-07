@@ -2,7 +2,7 @@ namespace L5;
 
 public class InsufficientFundsException : Exception
 {
-    public InsufficientFundsException()
+    public InsufficientFundsException() : this("Insufficient funds.")
     {
     }
 

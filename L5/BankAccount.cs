@@ -23,7 +23,7 @@ namespace L5
                 {
                     case ConsoleKey.D:
                         Console.WriteLine("Input amount to deposit: ");
-                        int depositAmount = ReadInteger();
+                        int depositAmount = Utilities.ReadInteger();
                         try
                         {
                             Deposit(depositAmount);
@@ -38,7 +38,7 @@ namespace L5
                     
                     case ConsoleKey.W:
                         Console.WriteLine("Input amount to withdraw");
-                        int withdrawAmount = ReadInteger();
+                        int withdrawAmount = Utilities.ReadInteger();
                         try
                         {
                             Withdrawal(withdrawAmount);

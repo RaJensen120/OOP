@@ -2,8 +2,9 @@ namespace L5;
 
 public class NegativeIntegerException : Exception
 {
-    public NegativeIntegerException()
+    public NegativeIntegerException() : this("Enter a non negative value.")
     {
+
     }
 
     public NegativeIntegerException(string message)
