@@ -8,11 +8,8 @@ namespace L5
         {
             //ReadInteger();
             BankAccount Jens = new BankAccount(2000);
-            Jens.Deposit(Jens);
-            Console.WriteLine(Jens.Balance);
-            Jens.Withdrawal(Jens);
-            Console.WriteLine(Jens.Balance);
-
+            Jens.Start();
+            
         }
         
         public static int ReadInteger()
@@ -24,9 +21,9 @@ namespace L5
             while (!done)
             {
 
-                Console.WriteLine("Input integer: ");
+                //Console.WriteLine("Input integer: ");
                 stringInt = Console.ReadLine();
-                
+
                 try
                 {
                     i = Int32.Parse(stringInt);
