@@ -7,6 +7,7 @@ namespace L6
     {
         static void Main(string[] args)
         {
+            //6.1
             List<int> intList = new List<int>();
             for (int i = 0; i < 10; i++)
             {
@@ -54,6 +55,11 @@ namespace L6
             intArray1 = m.Shuffle(intArray1);
             Console.WriteLine("The list was shuffled to: ");
             m.Print(intArray1.ToList());
+            
+            //6.2
+            //Pair<int, bool> pair1 = new Pair<int, bool>(42, true);
+            //Pair< = pair1.Swap(pair1);
+
 
 
         }
