@@ -23,19 +23,20 @@ namespace L6
             Console.WriteLine("The min value is: " + m.Min(intList));
             
             // The code so far:
+            // makes a list and assigns values to each element
+            // Runs max & min on the list
 
-            int[] intArray1 = new int[12];
+            int[] intArray1 = new int[5];
             
             Random rng = new Random();
 
             for (int i = 0; i < intArray1.Length; i++)
             {
-                intArray1[i] = rng.Next(0, 30);
+                intArray1[i] = rng.Next(0, 99);
             }
-            int[] intArray2 = new int[11];
+            int[] intArray2 = new int[5];
 
-            
-            
+
             try
             {
                 intArray2 = m.Copy(intArray1, intArray2);
@@ -45,8 +46,15 @@ namespace L6
             {
                 Console.WriteLine(e.Message);
             }
-
             
+            
+            
+            Console.WriteLine("The list to be shuffled:");
+            m.Print(intArray1.ToList());
+            intArray1 = m.Shuffle(intArray1);
+            Console.WriteLine("The list was shuffled to: ");
+            m.Print(intArray1.ToList());
+
 
         }
     }

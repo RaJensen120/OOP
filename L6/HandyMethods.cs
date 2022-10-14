@@ -52,17 +52,30 @@ public class HandyMethods
 
     }
 
-    /*public T Min<T>(List<T> list) where T : IComparable<T>
+    public T[] Shuffle<T>(T[] t1)
     {
-        
-    } */
+        Random rng = new Random();
+        int j, k;
 
+        for (int i = 0; i < t1.Length; i++)
+        {
+            j = rng.Next(0, t1.Length);
+            k = rng.Next(0, t1.Length);
+
+            (t1[j], t1[k]) = (t1[k], t1[j]);
+        }
+
+        return t1;
+
+    }
+    
     public void Print<T>(List<T> list)
     {
+        
 
         for (int i = 0; i < list.Count; i++)
         {
-            Console.WriteLine("Element {0} is: {1}", i , list[i]);
+            Console.WriteLine("Element {0} is: {2}", i , nameof(list), list[i]);
         }
     }
 }
